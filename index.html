@@ -20,21 +20,12 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
 
-    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container topnav">o
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -42,9 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -74,12 +63,25 @@
                     <div class="intro-message">
                         <h1>Binge</h1>
                         <h3>Channel surfing for the digital age.</h3>
-                        <form>
+                        <div class="row">
+
+                            <div class="form-group col-xs-6">
+                            <label for="firstname" class="sr-only"></label>
+                            <input id="firstname" class="form-control input-group-lg reg_name" type="text" name="firstname" placeholder="First name"/>
+                            </div>
+
+                            <div class="form-group col-xs-6">
+                            <label for="lastname" class="sr-only"></label>
+                            <input id="lastname" class="form-control input-group-lg reg_name" type="text" name="lastname" placeholder="Last name"/>
+                            </div>
+                        
+                        </div>
+
                             <div class="form-group">
-                            <label for="exampleInputEmail1">Sign Up!</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                             </div>
-                         </form>
+
+                        <h4>Sign Up!</h4>
                     </div>
                 </div>
             </div>
@@ -119,7 +121,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Bored? <br>Just keep swiping.</h2>
@@ -180,7 +182,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Binge 2017. All Rights Reserved</p>
                 </div>
             </div>
         </div>
